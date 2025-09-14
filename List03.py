@@ -7,4 +7,7 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    return list1 + list2
+
+print(main([1, 2, 3, 4], [5, 6, 7, 8]))
+print(main(["x", 2, "i", 3], [1, "y", 6, "l"]))
